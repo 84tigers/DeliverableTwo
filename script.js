@@ -1,7 +1,7 @@
 
 
 
-function myFunction() {
+function myFunction(numberz) {
 var question = "Gimme a number!!!";
 var userNum = prompt(question);
 var total = 0;
