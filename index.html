@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- I couldn't get script.js to link properly and I failed finish but I thought this is better than nothing  -->
+<!-- IN PREWORK FOLDER  -->
 
   <!-- <script type="text/javascript" src="./script.js/"></script> -->
-<script type="text/javascript" src="/zcript.js" ></script>
+<script type="text/javascript" src="script.js" ></script>
 </head>
 <body>
   <h2>Exercise One:</h2>
-
-  <button onclick="numberz">CLICK ME!!!</button>
-    <script id=numberz type="text/javascript" src="script.js" >
-    // function myFunction() {
-    // var question = "Gimme a number!!!";
-    // var userNum = prompt(question);
-    // var total = 0;
-    //   for (var i = 0; i <= userNum; i++) {
-    //     total += i;
-    //   }
-    // alert('Ummmm, that would equal ' + total + ' thingies.');
-    // }
-    </script>
+  <!-- <a href="#" onclick="numberz()">Click Here to call first function</a> -->
+  <button onclick="numberz()">CLICK ME!!!</button>
+  <!-- <script id="numberz()" type="text/javascript" src="script.js" ><button onclick="numberz">"CLICK ME!!!"</button></script> -->
+    <!-- <script id="numberz" type="text/javascript" src="script.js" >
+    function myFunction() {
+    var question = "Gimme a number!!!";
+    var userNum = prompt(question);
+    var total = 0;
+      for (var i = 0; i <= userNum; i++) {
+        total += i;
+      }
+    alert('Ummmm, that would equal ' + total + ' thingies.');
+    }
+    </script> -->
 
   <h2>Exercise Two (do while loop):</h2>
 
-    <button onclick="myFunctionThree()">CLICK ME!!!</button>
-    <script>
+    <button onclick="wordz()">CLICK ME!!!</button>
+    <!-- <script id=wordz type="text/javascript" src="script.js" >
     function myFunctionThree() {
 
       var repeat, wordArr = [];
@@ -37,7 +38,7 @@
       }
       alert(wordArr.join("\n"));
     }
-    </script>
+    </script> -->
 
 
   <h2>Exercise Two: (while loop)</h2>
@@ -51,7 +52,7 @@
           wordArr.push(prompt("Enter a word: "));
               repeat = prompt ("Do you want to enter another word: y/n");
       }
-      alert(wordArr.join("\n"));
+      alert(wordArr.join('\n') + "\n" + repeat);
     }
     </script>
 
