@@ -1,5 +1,5 @@
 
-// Ex 3
+// Ex 1
 
 // function myFunction(numberz) {
 function numberz() {
@@ -44,34 +44,25 @@ function wordz() {
 // /*       alert(wordArr.join('\n') + "\n" + repeat); */
 //
 // // Ex 4
-//
-// var select = document.querySelector('select');
-// function update(mealType, foodSugg){
-//   mealType = ['breakfast', 'lunch', 'dinner'];
-//   foodSugg = ['eggs and toast.', 'a salad.', 'chicken and rice.'];
-// }
-//
-// select.onchange = function() {
-// switch (select) {
-// case 'morning':
-// alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0])
-// break;
-// case 'noon':
-// alert("Since it's noon, you should be eating " + mealType[1] + ". We suggest " + foodSugg[1])
-// break;
-// case 'noon':
-// alert("Since it's morning, you should be eating " + mealType[2] + ". We suggest " + foodSugg[2])
-// break;
-// default:
-// alert("INVALID CHOICE");
-// }
-//
-//
-//
-//
-//
-//
-// var timeOfDay = ['morning' 'noon' 'evening'];
-// var foodSugg = ['eggs and toast.' 'a salad.' 'chicken and rice.'];
-// var greeting = "Is it morning, noon, or evening? Please type one option given."
-// prompt(greeting)
+
+function getOption() {
+    var timeOfDay = document.getElementById('userChoice');
+    var mealType = ['breakfast', 'lunch', 'dinner'];
+    var foodSugg = ['eggs and toast.', 'a salad.', 'chicken and rice.'];
+    	switch (timeOfDay) {
+        case 2:
+        alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
+        break;
+        case 3:
+        alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
+        break;
+        case 4:
+        alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
+        break;
+        default:
+        alert("INVALID CHOICE");
+        }
+
+    /* document.getElementById("demo").innerHTML =
+    obj.options[obj.selectedIndex].text; */
+}
