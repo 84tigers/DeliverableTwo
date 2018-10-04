@@ -31,21 +31,47 @@ function wordz() {
 
 // Ex 3
 
-var repeat, wordArr = [];
-/* var exNum = wordArr.length
- */var exclaim = '!';
- if (prompt(repeat) !== 'n' && repeat !== 'N');
-      while (repeat !== 'n' && repeat !== 'N' && wordArr !== false){
-          wordArr.push(prompt("Enter your name: "));
-              repeat = prompt ("Do you want to print your name : y/n");
-
-      }
-      alert('your name is ' + wordArr[0] + ' ' + (wordArr.length) * exclaim);
-/*       alert(wordArr.join('\n') + "\n" + repeat); */
-
-// Ex 4
-
-var timeOfDay = ['morning' 'noon' 'evening'];
-var foodSugg = ['eggs and toast.' 'a salad.' 'chicken and rice.'];
-var greeting = "Is it morning, noon, or evening? Please type one option given."
-prompt(greeting) 
+// var repeat, wordArr = [];
+// /* var exNum = wordArr.length
+//  */var exclaim = '!';
+//  if (prompt(repeat) !== 'n' && repeat !== 'N');
+//       while (repeat !== 'n' && repeat !== 'N' && wordArr !== false){
+//           wordArr.push(prompt("Enter your name: "));
+//               repeat = prompt ("Do you want to print your name : y/n");
+//
+//       }
+//       alert('your name is ' + wordArr[0] + ' ' + (wordArr.length) * exclaim);
+// /*       alert(wordArr.join('\n') + "\n" + repeat); */
+//
+// // Ex 4
+//
+// var select = document.querySelector('select');
+// function update(mealType, foodSugg){
+//   mealType = ['breakfast', 'lunch', 'dinner'];
+//   foodSugg = ['eggs and toast.', 'a salad.', 'chicken and rice.'];
+// }
+//
+// select.onchange = function() {
+// switch (select) {
+// case 'morning':
+// alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0])
+// break;
+// case 'noon':
+// alert("Since it's noon, you should be eating " + mealType[1] + ". We suggest " + foodSugg[1])
+// break;
+// case 'noon':
+// alert("Since it's morning, you should be eating " + mealType[2] + ". We suggest " + foodSugg[2])
+// break;
+// default:
+// alert("INVALID CHOICE");
+// }
+//
+//
+//
+//
+//
+//
+// var timeOfDay = ['morning' 'noon' 'evening'];
+// var foodSugg = ['eggs and toast.' 'a salad.' 'chicken and rice.'];
+// var greeting = "Is it morning, noon, or evening? Please type one option given."
+// prompt(greeting)
