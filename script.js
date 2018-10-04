@@ -1,7 +1,7 @@
 
 // Ex 1
 
-// function myFunction(numberz) {
+
 function numberz() {
 var question = "Gimme a number!!!";
 var userNum = prompt(question);
@@ -11,7 +11,7 @@ var total = 0;
   }
 alert('Ummmm, that would equal ' + total + ' thingies.');
 }
-// }
+
 
 // Ex 2
 
@@ -46,23 +46,25 @@ function wordz() {
 // // Ex 4
 
 function getOption() {
-    var timeOfDay = document.getElementById('userChoice');
+
+
+    var greeting = 'Is it morning, noon, or evening? Please choose one:'
+    var timeOfDay = prompt(greeting);
     var mealType = ['breakfast', 'lunch', 'dinner'];
     var foodSugg = ['eggs and toast.', 'a salad.', 'chicken and rice.'];
-    	switch (timeOfDay) {
-        case 2:
+    	switch (timeOfDay.toLowerCase()) {
+        case ('morning'):
         alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
         break;
-        case 3:
-        alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
+        case ('noon'):
+        alert("Since it's noon, you should be eating " + mealType[1] + ". We suggest " + foodSugg[1]);
         break;
-        case 4:
-        alert("Since it's morning, you should be eating " + mealType[0] + ". We suggest " + foodSugg[0]);
+        case ('evening'):
+        alert("Since it's evening, you should be eating " + mealType[2] + ". We suggest " + foodSugg[2]);
         break;
         default:
-        alert("INVALID CHOICE");
+        alert("INVALID CHOICE!\nTRY AGAIN");
         }
 
-    /* document.getElementById("demo").innerHTML =
-    obj.options[obj.selectedIndex].text; */
+
 }
