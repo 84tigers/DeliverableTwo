@@ -31,19 +31,17 @@ function wordz() {
 
 // Ex 3
 
-// var repeat, wordArr = [];
-// /* var exNum = wordArr.length
-//  */var exclaim = '!';
-//  if (prompt(repeat) !== 'n' && repeat !== 'N');
-//       while (repeat !== 'n' && repeat !== 'N' && wordArr !== false){
-//           wordArr.push(prompt("Enter your name: "));
-//               repeat = prompt ("Do you want to print your name : y/n");
-//
-//       }
-//       alert('your name is ' + wordArr[0] + ' ' + (wordArr.length) * exclaim);
-// /*       alert(wordArr.join('\n') + "\n" + repeat); */
-//
-// // Ex 4
+// var repeat, nameA1 = [];
+// var nameQ1 = "Would you like to print your name?";
+// var nameQ2 = "Type your name below:"
+// var i = "!"
+// function exclaim(exTimes);
+//   return nameA1.length[];
+// console.log(nameQ1);
+//   if (nameQ1.toLowerCase() === 'yes' && nameQ1.toLowerCase() !== 'no');
+//   console.log(nameQ2);
+//   var nameA1 = nameQ2;
+//   var nameOut = "Hello, my name is " + nameA1 + (exclaim(exTimes)*i);
 
 function getOption() {
 
@@ -63,7 +61,7 @@ function getOption() {
         alert("Since it's evening, you should be eating " + mealType[2] + ". We suggest " + foodSugg[2]);
         break;
         default:
-        alert("INVALID CHOICE!\nTRY AGAIN");
+        alert("INVALID CHOICE!\nCheck your spelling");
         }
 
 
